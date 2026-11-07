@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-slate-950 text-slate-100 min-h-screen flex flex-col font-sans">
+      <body className="bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 text-slate-100 min-h-screen flex flex-col font-sans selection:bg-indigo-500 selection:text-white">
         <CourseProvider>
           <Navbar />
           <main className="flex-1 max-w-7xl w-full mx-auto p-4 md:p-8">
