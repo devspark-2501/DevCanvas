@@ -14,6 +14,12 @@ export default function Navbar() {
           <Link href="/dashboard" className="hover:text-white transition">
             Dashboard
           </Link>
+          <Link 
+            href="/browse" 
+            className="bg-indigo-600 hover:bg-indigo-500 text-white px-3 py-1.5 rounded-lg text-xs font-semibold transition"
+          >
+            Browse Courses
+          </Link>
         </nav>
       </div>
     </header>
